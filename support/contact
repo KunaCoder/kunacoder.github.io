@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact | KunaCoder</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+
+<a href="index.html">
+KunaCoder
+</a>
+
+</div>
+
+<div class="menu">
+
+<a href="index.html">
+Home
+</a>
+
+<a href="index.html#products">
+Products
+</a>
+
+<a href="contact.html">
+Contact
+</a>
+
+</div>
+
+</nav>
+
+
+<section class="app-hero">
+
+<div class="app-left">
+
+<h1>
+Contact KunaCoder
+</h1>
+
+<p>
+Questions about one of our apps?<br>
+Need support or want to get in touch?
+</p>
+
+<p class="support-email">
+
+📧
+<a href="mailto:KunaCoder@gmail.com">
+KunaCoder@gmail.com
+</a>
+
+</p>
+
+<a
+href="mailto:KunaCoder@gmail.com"
+class="button">
+
+Send Email
+
+</a>
+
+</div>
+
+<div class="app-right">
+
+<div class="contact-symbol">
+&lt;/&gt;
+</div>
+
+</div>
+
+</section>
+
+
+<section class="features">
+
+<h2>
+How can we help?
+</h2>
+
+<div class="feature-grid">
+
+
+<div class="feature">
+
+<h3>
+FamilyLink
+</h3>
+
+<p>
+Questions or support for FamilyLink.
+</p>
+
+<a
+href="support/familylink.html"
+class="button">
+
+Support
+
+</a>
+
+</div>
+
+
+<div class="feature">
+
+<h3>
+FamilyLink Home
+</h3>
+
+<p>
+Questions or support for FamilyLink Home.
+</p>
+
+<a
+href="support/familylink-home.html"
+class="button">
+
+Support
+
+</a>
+
+</div>
+
+
+<div class="feature">
+
+<h3>
+TripLog Easy
+</h3>
+
+<p>
+Questions or support for TripLog Easy.
+</p>
+
+<a
+href="support/triplogeasy.html"
+class="button">
+
+Support
+
+</a>
+
+</div>
+
+
+<div class="feature">
+
+<h3>
+TutorHjælp
+</h3>
+
+<p>
+Questions or support for TutorHjælp.
+</p>
+
+<a
+href="support/tutorhjaelp.html"
+class="button">
+
+Support
+
+</a>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<section class="features">
+
+<h2>
+Privacy
+</h2>
+
+<div class="feature-grid">
+
+
+<div class="feature">
+
+<h3>
+FamilyLink
+</h3>
+
+<p>
+Read the FamilyLink Privacy Policy.
+</p>
+
+<a
+href="privacy/familylink.html"
+class="button">
+
+Privacy Policy
+
+</a>
+
+</div>
+
+
+<div class="feature">
+
+<h3>
+FamilyLink Home
+</h3>
+
+<p>
+Read the FamilyLink Home Privacy Policy.
+</p>
+
+<a
+href="privacy/familylink-home.html"
+class="button">
+
+Privacy Policy
+
+</a>
+
+</div>
+
+
+<div class="feature">
+
+<h3>
+TripLog Easy
+</h3>
+
+<p>
+Read the TripLog Easy Privacy Policy.
+</p>
+
+<a
+href="privacy/triplogeasy.html"
+class="button">
+
+Privacy Policy
+
+</a>
+
+</div>
+
+
+<div class="feature">
+
+<h3>
+TutorHjælp
+</h3>
+
+<p>
+Read the TutorHjælp Privacy Policy.
+</p>
+
+<a
+href="privacy/tutorhjaelp.html"
+class="button">
+
+Privacy Policy
+
+</a>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<footer>
+
+<div class="footer-logo">
+KunaCoder
+</div>
+
+<p>
+Apps built for real life.
+</p>
+
+<p>
+© 2026 KunaCoder. All rights reserved.
+</p>
+
+</footer>
+
+</body>
+
+</html>

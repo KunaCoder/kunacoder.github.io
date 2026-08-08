@@ -1,222 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KunaCoder</title>
 
-    <style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
-        }
+<title>KunaCoder | Apps built for real life</title>
 
-        body{
-            background:#070B16;
-            color:white;
-        }
+<meta
+name="description"
+content="KunaCoder creates simple and useful apps for families, driving, learning and everyday life.">
 
-        nav{
-            display:flex;
-            justify-content:space-between;
-            align-items:center;
-            padding:24px 8%;
-            position:sticky;
-            top:0;
-            backdrop-filter:blur(20px);
-            background:rgba(7,11,22,.75);
-        }
-
-        .logo{
-            font-size:30px;
-            font-weight:700;
-        }
-
-        .menu{
-            display:flex;
-            gap:30px;
-        }
-
-        .menu a{
-            color:white;
-            text-decoration:none;
-        }
-
-        .hero{
-            min-height:85vh;
-            display:flex;
-            flex-direction:column;
-            justify-content:center;
-            align-items:center;
-            text-align:center;
-            padding:30px;
-        }
-
-        h1{
-            font-size:72px;
-            line-height:1.05;
-            max-width:900px;
-        }
-
-        h1 span{
-            color:#6E6BFF;
-        }
-
-        .hero p{
-            margin-top:25px;
-            font-size:22px;
-            color:#B8B8C8;
-            max-width:650px;
-        }
-
-        .button{
-            margin-top:45px;
-            background:#6E6BFF;
-            color:white;
-            padding:18px 38px;
-            border-radius:50px;
-            text-decoration:none;
-            font-weight:600;
-            transition:.25s;
-        }
-
-        .button:hover{
-            transform:scale(1.05);
-        }
-
-        .apps{
-            padding:80px 8%;
-        }
-
-        .apps h2{
-            font-size:42px;
-            margin-bottom:40px;
-        }
-
-        .grid{
-            display:grid;
-            grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-            gap:25px;
-        }
-
-        .card{
-            background:#111827;
-            border-radius:24px;
-            padding:30px;
-            transition:.3s;
-        }
-
-        .card:hover{
-            transform:translateY(-8px);
-        }
-
-        .icon{
-            font-size:50px;
-            margin-bottom:20px;
-        }
-
-        .card h3{
-            margin-bottom:10px;
-        }
-
-        .card p{
-            color:#B8B8C8;
-        }
-
-        footer{
-            padding:60px;
-            text-align:center;
-            color:#888;
-        }
-
-        @media(max-width:700px){
-
-            h1{
-                font-size:46px;
-            }
-
-            .menu{
-                display:none;
-            }
-
-        }
-
-    </style>
+<link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
+
 <nav>
 
-<div class="logo">KunaCoder</div>
+<div class="logo">
+
+<a href="index.html">
+KunaCoder
+</a>
+
+</div>
 
 <div class="menu">
-<a href="#">Products</a>
-<a href="#">News</a>
-<a href="#">About</a>
-<a href="#">Contact</a>
+
+<a href="#products">
+Products
+</a>
+
+<a href="#about">
+About
+</a>
+
+<a href="contact.html">
+Contact
+</a>
+
 </div>
 
 </nav>
 
-<section class="hero">
 
-<h1>Apps built for <span>real life.</span></h1>
+<header class="hero">
+
+<div class="hero-content">
+
+<h1>
+
+Apps built for<br>
+<span>real life.</span>
+
+</h1>
 
 <p>
-Simple apps that solve everyday problems.
-Designed and developed by Carsten Kuna.
+
+Simple, useful and beautifully designed apps
+created to make everyday life a little easier.
+
 </p>
 
-<a href="#" class="button">
+<a href="#products" class="button">
+
 Explore Products
+
+</a>
+
+</div>
+
+</header>
+
+
+<section id="products" class="products">
+
+<div class="section-title">
+
+<h2>
+Our Products
+</h2>
+
+<p>
+
+Apps designed to solve real everyday problems.
+
+</p>
+
+</div>
+
+
+<div class="products-grid">
+
+
+<!-- FAMILYLINK -->
+
+<article class="card">
+
+<img
+src="images/FamilyLink_Logo.png"
+alt="FamilyLink">
+
+<h3>
+FamilyLink
+</h3>
+
+<p>
+
+Stay connected with the people who matter most
+with shared calendars, messages and reminders.
+
+</p>
+
+<a href="apps/familylink.html">
+
+Learn more →
+
+</a>
+
+</article>
+
+
+<!-- FAMILYLINK HOME -->
+
+<article class="card">
+
+<img
+src="images/FamilyLinkHome_Logo.jpg"
+alt="FamilyLink Home">
+
+<h3>
+FamilyLink Home
+</h3>
+
+<p>
+
+Bring everyday family planning, communication
+and important information together in one place.
+
+</p>
+
+<a href="apps/familylink-home.html">
+
+Learn more →
+
+</a>
+
+</article>
+
+
+<!-- TRIPLOG EASY -->
+
+<article class="card">
+
+<img
+src="images/TripLogEasy_Logo.jpg"
+alt="TripLog Easy">
+
+<h3>
+TripLog Easy
+</h3>
+
+<p>
+
+Automatic mileage tracking with business and
+private trips, calculations and PDF reports.
+
+</p>
+
+<a href="apps/triplogeasy.html">
+
+Learn more →
+
+</a>
+
+</article>
+
+
+<!-- TUTORHJÆLP -->
+
+<article class="card">
+
+<img
+src="images/TutorHjaelp_Logo.jpg"
+alt="TutorHjælp">
+
+<h3>
+TutorHjælp
+</h3>
+
+<p>
+
+An AI-powered learning assistant that helps
+students understand schoolwork step by step.
+
+</p>
+
+<a href="apps/tutorhjaelp.html">
+
+Learn more →
+
+</a>
+
+</article>
+
+
+</div>
+
+</section>
+
+
+<section id="about" class="about">
+
+<div class="about-box">
+
+<h2>
+About KunaCoder
+</h2>
+
+<p>
+
+KunaCoder is an independent software studio
+creating simple and useful apps for real life.
+
+From keeping families connected and tracking
+mileage to helping students learn, every app
+starts with the same idea: technology should
+make everyday life easier.
+
+</p>
+
+</div>
+
+</section>
+
+
+<!-- DEL 2 STARTER HER -->
+ <section class="stats">
+
+<div class="stat">
+
+<h3>
+4
+</h3>
+
+<p>
+Apps in the App Store
+</p>
+
+</div>
+
+
+<div class="stat">
+
+<h3>
+100%
+</h3>
+
+<p>
+Independent
+</p>
+
+</div>
+
+
+<div class="stat">
+
+<h3>
+∞
+</h3>
+
+<p>
+New ideas
+</p>
+
+</div>
+
+</section>
+
+
+<section id="contact" class="contact">
+
+<h2>
+Questions?
+</h2>
+
+<p>
+
+Need support, have feedback or just want
+to get in touch with KunaCoder?
+
+</p>
+
+<p class="support-email">
+
+📧
+<a href="mailto:KunaCoder@gmail.com">
+
+KunaCoder@gmail.com
+
+</a>
+
+</p>
+
+<a
+href="contact.html"
+class="button">
+
+Contact KunaCoder
+
 </a>
 
 </section>
 
-<section class="apps">
-
-<h2>Our Products</h2>
-
-<div class="grid">
-
-<div class="card">
-<div class="icon">👨‍👩‍👧</div>
-<h3>FamilyLink</h3>
-<p>Stay connected with your family.</p>
-</div>
-
-<div class="card">
-<div class="icon">🏡</div>
-<h3>FamilyLink Home</h3>
-<p>Shared family calendar and communication.</p>
-</div>
-
-<div class="card">
-<div class="icon">🚗</div>
-<h3>TripLog Easy</h3>
-<p>Automatic mileage tracking.</p>
-</div>
-
-<div class="card">
-<div class="icon">🎓</div>
-<h3>TutorHjælp</h3>
-<p>AI homework assistant.</p>
-</div>
-
-</div>
-
-</section>
 
 <footer>
 
-© 2026 KunaCoder
+<div class="footer-logo">
+KunaCoder
+</div>
+
+<p>
+Apps built for real life.
+</p>
+
+
+<div class="footer-links">
+
+<a href="index.html">
+Home
+</a>
+
+<a href="#products">
+Products
+</a>
+
+<a href="#about">
+About
+</a>
+
+<a href="terms.html">
+Terms
+</a>
+
+<a href="contact.html">
+Contact
+</a>
+
+</div>
+
+
+<p>
+© 2026 KunaCoder. All rights reserved.
+</p>
 
 </footer>
+
 
 </body>
 

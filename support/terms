@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Terms of Use | KunaCoder</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+
+<a href="index.html">
+KunaCoder
+</a>
+
+</div>
+
+<div class="menu">
+
+<a href="index.html">
+Home
+</a>
+
+<a href="index.html#products">
+Products
+</a>
+
+<a href="contact.html">
+Contact
+</a>
+
+</div>
+
+</nav>
+
+
+<section class="app-hero">
+
+<div class="app-left">
+
+<h1>
+Terms of Use
+</h1>
+
+<p>
+Terms and conditions for using
+KunaCoder applications.
+</p>
+
+<p>
+Last updated: August 2026
+</p>
+
+</div>
+
+<div class="app-right">
+
+<div class="contact-symbol">
+&lt;/&gt;
+</div>
+
+</div>
+
+</section>
+
+
+<section class="features">
+
+<h2>
+Terms of Use
+</h2>
+
+<div class="feature-grid">
+
+
+<div class="feature">
+
+<h3>
+About KunaCoder Apps
+</h3>
+
+<p>
+KunaCoder develops applications designed
+to make everyday tasks simpler.
+
+By downloading or using a KunaCoder app,
+you agree to these Terms of Use.
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<h3>
+Use of the Apps
+</h3>
+
+<p>
+You may use KunaCoder applications for
+their intended purposes and in accordance
+with applicable laws.
+
+You must not attempt to misuse, damage,
+reverse engineer or interfere with the
+operation of the apps or their services.
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<h3>
+Accounts
+</h3>
+
+<p>
+Some KunaCoder applications may require
+an account.
+
+You are responsible for keeping your
+account information secure and for
+activity performed through your account.
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<h3>
+Subscriptions and Purchases
+</h3>
+
+<p>
+Some apps may offer subscriptions or
+other purchases.
+
+Purchases made through Apple's App Store
+are processed by Apple and are subject
+to Apple's applicable payment,
+subscription and cancellation terms.
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<h3>
+AI Features
+</h3>
+
+<p>
+Some KunaCoder applications may include
+artificial intelligence features.
+
+AI-generated information may contain
+errors and should not be considered a
+replacement for professional, educational,
+financial, legal or other specialist advice.
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<h3>
+Availability
+</h3>
+
+<p>
+We aim to keep our applications available
+and working correctly, but uninterrupted
+or error-free operation cannot be guaranteed.
+
+Features may be changed, improved or
+discontinued as the applications evolve.
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<h3>
+Privacy
+</h3>
+
+<p>
+Each KunaCoder application has its own
+Privacy Policy describing how information
+used by that application is handled.
+</p>
+
+<a href="contact.html" class="button">
+Privacy & Support
+</a>
+
+</div>
+
+
+<div class="feature">
+
+<h3>
+Contact
+</h3>
+
+<p>
+If you have questions about these terms,
+please contact KunaCoder.
+</p>
+
+<p class="support-email">
+
+📧
+<a href="mailto:KunaCoder@gmail.com">
+KunaCoder@gmail.com
+</a>
+
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<footer>
+
+<div class="footer-logo">
+KunaCoder
+</div>
+
+<p>
+Apps built for real life.
+</p>
+
+<p>
+© 2026 KunaCoder. All rights reserved.
+</p>
+
+</footer>
+
+</body>
+
+</html>
